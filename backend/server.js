@@ -22,7 +22,7 @@ const userRouter = require('./routes/users');
 const exerciseRouter = require('./routes/exercises');
 
 app.use('/users', userRouter);
-app.use('exercises', exerciseRouter);
+app.use('/exercises', exerciseRouter);
 
 app.listen(port, () => {
     console.log(`Server is start on port: ${port}`)
