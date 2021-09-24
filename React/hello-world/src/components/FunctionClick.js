@@ -1,10 +1,14 @@
-// not completed................
 import React from 'react'
 
 function FunctionClick() {
+
+    function clickHandler(){
+        console.log("Button Clicked")
+    }
+
     return (
         <div>
-            <button>Click</button>
+            <button onClick={clickHandler}>Click</button>
         </div>
     )
 }

@@ -4,16 +4,18 @@ import './App.css';
 // import Hello from './components/Hello';
 // import Message from './components/Message';
 // import Counter from './components/Counter';
-// import FunctionClick from './components/FunctionClick';
-import EventBind from './components/EventBind';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+// import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
-      <EventBind />
-      {/* <Counter />
+      {/* <EventBind /> */}
+      {/* <Counter /> */}
+      <ClassClick />
       <FunctionClick />
-      <Message/>
+      {/* <Message/>
       <Greet name="Gayathri" mothername="Wasanthi"> 
         <p>This is a children prop</p>
       </Greet>
